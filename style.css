@@ -21,7 +21,7 @@ body {
 
 .head {
   padding: 22px 100px;
-  display: flex;
+  display: grid;
   justify-content: space-between;
   align-items: center;
   background: #E0E1DD;
