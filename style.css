@@ -532,7 +532,6 @@ h2 {
 
   .info {
     flex-direction: column;
-    min-width: 636px;
     padding: 20px;
   }
 
@@ -589,7 +588,6 @@ h2 {
   /* intro */
   .info {
     padding: 10px 20px;
-    min-width: 440px;
   }
 
   h1 {
