@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="img/icon.svg" rel="shortcut icon" type="image/x-icon">
+    <title>CheckTask</title>
+</head>
+<style>
+    @font-face {
+  font-family: "Jost";
+  src: url(font/Jost-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Jost-italic";
+  src: url(font/Jost-Italic-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost";
+}
+
+body {
+  background: #E0E1DD;
+}
+section {
+    padding: 40px 100px;
+    display: grid;
+    gap: 32px;
+}
+/* point */
+.head {
+    min-height: 80px;
+}
+li {
+    list-style-type: none;
+}
+.ic_set {
+    max-width: 48px;
+    min-height: 48px;
+}
+.back {
+    gap: 16px;
+    display: flex;
+    list-style-type: none;
+    align-items:center;
+    text-decoration: none;
+    font-size: 24px;
+    color: #000;
+}
+.personal {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+}
+.point {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 42px;
+}
+.protect {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.update {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+.update:hover {
+    text-decoration: underline #313131;
+}
+@media (max-width: 736px) {
+    section {
+        padding: 30px 60px;
+    }
+    .back {
+        font-size: 20px;
+    }
+    .ic_set {
+        max-width: 32px;
+        min-height: 32px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .update {
+        font-size: 16px;
+    }
+}
+@media (max-width: 480px) {
+    section {
+        padding: 30px 20px;
+    }
+    .back {
+        font-size: 16px;
+    }
+    .ic_set {
+        max-width: 22px;
+        min-height: 22px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .update {
+        font-size: 14px;
+    }
+}
+</style>
+<body>
+    <section>
+    <div class="head">
+        <li><a href="index.html" class="back"><img src="img/Left Arrow.svg" class="ic_set">В ПРОФИЛЬ</a></li>
+    </div>    
+    <div class="personal">
+        <div class="point">
+            <p>ФИО</p>
+            <a href="" class="update">Редактировать</a>
+        </div>
+        <div class="point">
+            <p>ПРОФЕССИЯ</p>
+            <a href="" class="update">Редактировать</a>
+        </div>
+        <div class="point">
+            <p>ОБРАЗОВАНИЕ</p>
+            <a href="" class="update">Редактировать</a>
+        </div>
+        <div class="point">
+            <p>СТАЖ</p>
+            <a href="" class="update">Редактировать</a>
+        </div>
+        <div class="point">
+            <p>ПОЧТА</p>
+            <a href="" class="update">Редактировать</a>
+        </div>
+        <div class="point">
+            <p>РЕЗЕРВНАЯ ПОЧТА</p>
+            <a href="" class="update">Добавить</a>
+        </div>
+    </div>
+    <div class="protect">
+        <div class="point">
+            <p>ЗАЩИТА И КОНФИДЕНЦИАЛЬНОСТЬ</p>
+            <a href="" class="update">Редактировать</a>
+        </div>
+        <div class="point">
+            <p>ЭКРАН И ЯРКОСТЬ</p>
+            <a href="" class="update">Редактировать</a>
+        </div>
+        <div class="point">
+            <p>ЯЗЫК И ВВОД</p>
+            <a href="" class="update">Редактировать</a>
+        </div>
+        <div class="point">
+            <p>СПЕЦИАЛЬНЫЕ ПРОГРАММЫ</p>
+            <a href="" class="update">Редактировать</a>
+        </div>
+    </div>
+    <div class="exit">
+        <div class="point">
+            <p>ВЫЙТИ ИЗ АККАУНТА</p>
+            <a href="" class="update">Редактировать</a>
+        </div>
+    </div>
+    </section>
+</body>
+</html>

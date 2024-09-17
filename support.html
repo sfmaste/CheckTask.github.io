@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="img/icon.svg" rel="shortcut icon" type="image/x-icon">
+    <title>CheckTask</title>
+</head>
+<style>
+    @font-face {
+        font-family: "Jost";
+        src: url(font/Jost-VariableFont_wght.ttf);
+    }
+
+    @font-face {
+        font-family: "Jost-italic";
+        src: url(font/Jost-Italic-VariableFont_wght.ttf);
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Jost";
+    }
+
+    body {
+        background-color: #d9d9d9;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding: 0 100px;
+    }
+
+
+    li {
+        list-style-type: none;
+    }
+
+    .back {
+        margin: 30px 0 10px 0;
+        gap: 16px;
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        text-decoration: none;
+        font-size: 24px;
+        color: #000;
+    }
+
+    /* block */
+    .sms {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        background-color: #f1f1f1;
+    }
+
+    .color {
+        max-width: 1180px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: #f1f1f1;
+        padding: 20px 26px 40px 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .inp {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    p {
+        font-size: 22px;
+        font-weight: 300;
+    }
+
+    .inp_fio {
+        width: 100%;
+        background-color: #d9d9d9;
+        border: 0;
+        color: #000;
+        height: 70px;
+        font-size: 18px;
+        padding: 0 40px;
+    }
+
+    .inp_mail {
+        width: 100%;
+        background-color: #d9d9d9;
+        border: #000;
+        font-size: 18px;
+        display: grid;
+        padding: 0 40px 20px 40px;
+        height: 140px;
+    }
+
+    .btn {
+        text-align: center;
+        max-width: 302px;
+        background-color: #354F52;
+        font-size: 24px;
+        color: #f1f1f1;
+        text-decoration: none;
+        padding: 16px 0px;
+        border: 0;
+    }
+    @media (max-width: 736px) {
+        .back {
+            font-size: 20px;
+        }
+        .ic_set {
+            max-width: 38px;
+            min-height: 38px;
+        }
+        /* block */
+        section {
+            padding: 0 70px;
+            gap: 20px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 18px;
+        }
+        .inp_fio {
+            height: 50px;
+            font-size: 16px;
+        } 
+        .btn {
+            padding: 14px 0;
+            font-size: 22px;
+        }
+    }
+    @media (max-width: 736px) {
+        .back {
+            font-size: 18px;
+        }
+        .ic_set {
+            max-width: 28px;
+            min-height: 28px;
+        }
+        /* block */
+        section {
+            padding: 0 40px;
+            gap: 20px;
+        }
+        h2 {
+            font-size: 18px;
+        }
+        p {
+            font-size: 16px;
+        }
+        .inp_fio {
+            height: 50px;
+            font-size: 16px;
+        } 
+        .btn {
+            padding: 12px 0;
+            font-size: 20px;
+        }
+    }
+</style>
+
+<body>
+    <section>
+        <li><a href="index.html" class="back"><img src="img/Left Arrow.svg" class="ic_set">НА ГЛАВНУЮ</a></li>
+        <div class="color">
+            <h2>НАПИШИТЕ НАМ В ТЕХ.ПОДДЕРЖКУ В СЛУЧАЯХ ВОЗНИКНОВЕНИЯ ВОПРОСОВ И ПРОБЛЕМ</h2>
+            <div class="inp">
+                <div class="point">
+                    <p>ВАШЕ ФИО</p>
+                    <input class="inp_fio" type="text" placeholder="ФИО" name="fio" required>
+                </div>
+                <div class="point">
+                    <p>ВАША ПОЧТА</p>
+                    <input class="inp_fio" type="text" placeholder="ПОЧТА" name="email" required>
+                </div>
+                <div class="point">
+                    <p>ВОПРОС/ПРОБЛЕМА</p>
+                    <input class="inp_mail" type="text" placeholder="СООБЩЕНИЕ" name="text" required>
+                </div>
+            </div>
+            <button class="btn">ОТПРАВИТЬ</button>
+        </div>
+    </section>
+</body>
+
+</html>

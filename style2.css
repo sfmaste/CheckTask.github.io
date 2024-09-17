@@ -1,0 +1,99 @@
+
+@font-face {
+    font-family: "Jost";
+    src: url(font/Jost-VariableFont_wght.ttf);
+  }
+  
+  @font-face {
+    font-family: "Jost-italic";
+    src: url(font/Jost-Italic-VariableFont_wght.ttf);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost";
+  }
+  body {
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+  }
+
+.container {
+    margin-top: 20%;
+    min-width: 600px;
+    min-height: 580px;
+    padding: 35px;
+    background-color: #84A98C;
+    font: 1,5em monospace;
+    text-align: center;
+    color: #252528;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+h1 {
+    font-size: 36px;
+    font-weight: 300;
+}
+.inp {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: #ffffff;
+    height: 52px;
+
+}
+a {
+    color: #354F52;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+a:hover {
+    color: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddddddba;
+    outline: none;
+}
+
+.btn {
+    background-color: #354F52;
+    color: rgb(243, 235, 235);
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    font-size: 24px;
+    font-weight: 200;
+}
+.btn:hover {
+    opacity: 1;
+    color: #354F52;
+    background-color: #f1f1f1;
+}
+
+.p {
+    font-size: xx-small;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+.a {
+  text-decoration: none;
+  border-bottom: #ec821f;
+  padding-bottom: 3px;
+  font-weight: 600;
+  color: #ffffff;
+  outline: none;
+}

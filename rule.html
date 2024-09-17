@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="img/icon.svg" rel="shortcut icon" type="image/x-icon">
+    <title>CheckTask</title>
+</head>
+<style>
+     @font-face {
+  font-family: "Jost";
+  src: url(font/Jost-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Jost-italic";
+  src: url(font/Jost-Italic-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost";
+}
+
+body {
+  background: #E0E1DD;
+  padding: 20px 100px;
+}
+
+section {
+    padding: 40px 100px;
+    display: grid;
+    gap: 32px;
+    background-color: #f1f1f1;
+}
+/* header */
+.head {
+    min-height: 80px;
+}
+li {
+    list-style-type: none;
+}
+.ic_set {
+    max-width: 48px;
+    min-height: 48px;
+}
+.back {
+    gap: 16px;
+    display: flex;
+    list-style-type: none;
+    align-items:center;
+    text-decoration: none;
+    font-size: 24px;
+    color: #000;
+}
+/* rule */
+h1 {
+    font-size: 32px;
+    font-weight: 400;
+}
+h2 {
+    font-size: 26px;
+    font-weight: 500;
+}
+.create {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+li {
+    font-size: 24px;
+    font-weight: 300;
+}
+.p1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.p2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-left: 30px;
+}
+@media (max-width: 736px) {
+    body {
+        padding: 20px 80px;
+    }
+    section {
+        padding: 30px 60px;
+    }
+    .back {
+        font-size: 20px;
+    }
+    .ic_set {
+        max-width: 38px;
+        min-height: 38px;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    li {
+        font-size: 20px;
+    }
+}
+@media (max-width: 480px) {
+    body {
+        padding: 20px 50px;
+    }
+    section {
+        padding: 30px 60px;
+    }
+    .back {
+        font-size: 18px;
+    }
+    .ic_set {
+        max-width: 28px;
+        min-height: 28px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    li {
+        font-size: 18px;
+    }
+}
+</style>
+<body>
+    <div class="head">
+        <li><a href="index.html" class="back"><img src="img/Left Arrow.svg" class="ic_set">НА ГЛАВНУЮ</a></li>
+    </div>  
+    <section>
+        <h1>ПРАВИЛА ИСПОЛЬЗОВАНИЯ ПРИЛОЖЕНИЯ</h1>
+        <div class="create">
+            <h2>Создание заметки</h2>
+            <div class="p1">
+                <li>создание заметки производится на главной странице после раздела с правилами;</li>
+                <li>на главной странице необходимо нажать на окно “Создать заметку”;</li>
+                <li>далее необходимо ввести данные:</li>
+            </div>
+            <div class="p2">
+                <li>в заголовке ввести ФИО преподавателя и дисциплину;</li>
+                <li>в описании указать класс с кем был проведен урок;</li>
+                <li>в случае выставления оценок ввести все оценки, которые были получены в течение занятияж;</li>
+                <li>после внесения всех данных нажмите кнопку “Создать”</li>
+            </div>
+        </div>
+        <div class="create">
+            <h2>Удаление заметки</h2>
+            <div class="p1">
+                <li>выберите необходимую заметку</li>
+                <li>в правом нижнем углу нажмите на знак троеточие</li>
+                <li>выберите кнопку удалить</li>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
