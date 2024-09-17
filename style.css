@@ -654,3 +654,35 @@ h2 {
     min-width: 400px;
   }
 }
+@media (max-width: 356px) {
+  section {
+    padding: 10px;
+  }
+  h1 {
+    font-size: 12px;
+  }
+  .h_1 {
+    font-size:12px;
+  }
+  .head {
+    padding: 10px;
+  }
+  .info_icon {
+    max-height: 10px;
+    min-height: 10px;
+  }
+  .menu {
+    gap: 6px;
+  }
+  .info {
+    padding: 10;
+    width:100%;
+  }
+  .name_sch {
+    font-size: 12px;
+  }
+    .content {
+    margin-left: 3%;
+    max-width: 300px;
+  }
+}
