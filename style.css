@@ -665,7 +665,14 @@ h2 {
   .head {
     padding: 10px;
   }
+  .name_sch {
+    font-size: 14px;
+  }
   .info_icon {
+    max-height: 10px;
+    min-height: 10px;
+  }
+  .ic_menu {
     max-height: 10px;
     min-height: 10px;
   }
@@ -682,14 +689,33 @@ h2 {
     margin-left: 3%;
     max-width: 300px;
   }
-  .button1 {
+  form.button1 {
     min-width: 100px;
     padding: 0 10px;
     font-size: 14px;
   }
-  .button2 {
+  form.button2 {
     min-width: 100px;
     padding: 0 10px;
     font-size: 14px;
+  }
+/*   task */
+  .wrapper {
+    margin: 15px;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fill, 100%);
+  }
+
+  .popup-box .popup {
+    max-width: calc(100% - 15px);
+  }
+
+  .bottom-content .settings i {
+    font-size: 17px;
+  }
+
+  .content {
+    margin-left: 5%;
+    max-width: 400px;
   }
 }
