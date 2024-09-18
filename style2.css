@@ -27,7 +27,6 @@
     min-height: 580px;
     padding: 35px;
     background-color: #84A98C;
-    font: 1,5em monospace;
     text-align: center;
     color: #252528;
     display: flex;
@@ -96,4 +95,34 @@ input[type=text]:focus, input[type=password]:focus {
   font-weight: 600;
   color: #ffffff;
   outline: none;
+}
+@media (max-width: 736px) {
+    .container {
+        min-height: 480px;
+    }
+    .btn {
+        font-size: 20px;
+        max-width: 250px;
+    }
+}
+@media (max-width: 480px) {
+    .container {
+        min-height: 380px;
+        min-width: 400px;
+    }
+}
+@media (max-width: 356px) {
+    .container {
+        min-height: 300px;
+        min-width: 280px;
+        padding: 10px;
+        gap: 6px;
+    }
+    .btn {
+        font-size: 20px;
+        max-width: 200px;
+    }
+    h1 {
+        font-size: 24px;
+    }
 }
