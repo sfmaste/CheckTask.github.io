@@ -32,6 +32,8 @@ body {
   font-size: 24px;
   font-weight: 400;
   cursor: pointer;
+  width: auto;
+  text-align: center;
 }
 
 .ic_menu {
@@ -74,6 +76,7 @@ li {
   text-decoration: none;
   color: black;
 }
+
 li:hover {
   background-color: #f1f1f1;
   padding: 0 6px;
@@ -460,6 +463,7 @@ h2 {
   font-weight: 400;
   cursor: pointer;
 }
+
 .contacts {
   display: flex;
   flex-direction: column;
@@ -495,6 +499,9 @@ h2 {
   .content {
     margin-left: 5%;
     max-width: 550px;
+  }
+  .section {
+    padding: 80px 140px;
   }
 
   /* head */
@@ -581,7 +588,7 @@ h2 {
   }
 
   .content {
-    margin-left: 5%;
+    margin-left: 2%;
     max-width: 400px;
   }
 
@@ -638,6 +645,9 @@ h2 {
     max-height: 20px;
     min-height: 20px;
   }
+  .section {
+    padding: 80px 60px;
+  }
 
   /* footer */
   .foot {
@@ -652,57 +662,96 @@ h2 {
     min-width: 400px;
   }
 }
+
 @media (max-width: 356px) {
   section {
     padding: 10px;
   }
+/* task padding */
   .section {
-    padding: 80px 60px;
-  }
-  h1 {
+    padding: 80px 30px; 
+  } 
+
+  .h {
     font-size: 12px;
   }
+
   .h_1 {
-    font-size:12px;
+    font-size: 12px;
   }
+
   .head {
     padding: 10px;
   }
+
+  .link {
+    font-size: 10px;
+  }
+
   .name_sch {
-    font-size: 14px;
+    font-size: 12px;
+    text-align: center;
+    max-width: 70px;
   }
+
   .info_icon {
-    max-height: 10px;
-    min-height: 10px;
+    max-height: 12px;
+    min-height: 12px;
   }
+
   .ic_menu {
-    max-height: 10px;
-    min-height: 10px;
+    max-height: 14px;
+    min-height: 14px;
   }
+
   .menu {
     gap: 6px;
   }
+
   .info {
-    width:100%;
+    width: 100%;
+    gap: 10px;
   }
+  hr {
+    max-height: 1px;
+  }
+
   .name_sch {
     font-size: 12px;
   }
-    .content {
-    margin-left: 3%;
+  /* intro */
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .content {
+    margin-left: 0%;
     max-width: 300px;
   }
-  form.button1 {
+
+  form .button1 {
     min-width: 100px;
+    max-height: 50px;
     padding: 0 10px;
-    font-size: 14px;
+    font-size: 12px;
   }
-  form.button2 {
+
+  form .button2 {
     min-width: 100px;
+    max-height: 50px;
     padding: 0 10px;
-    font-size: 14px;
+    font-size: 12px;
   }
-/*   task */
+  .support {
+    gap: 10px;
+  }
+
+  .rule {
+    gap: 10px;
+  }
+
+  /*   task */
   .wrapper {
     margin: 15px;
     gap: 15px;
@@ -720,5 +769,15 @@ h2 {
   .content {
     margin-left: 5%;
     max-width: 400px;
+  }
+  /* footer */
+  .f-info {
+    min-width: 336px;
+  }
+  h2 {
+    font-size: 12px;
+  }
+  .numb {
+    font-size: 10px;
   }
 }
